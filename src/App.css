@@ -1,42 +1,64 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+}
+.landing1 {
+  height: 50em;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(90deg, #1f3040 51.33%, #ff9442 51.5%);
+}
+.landing2 {
+  height: 47em;
+  width: 75em;
+  margin-top: 50px;
+  background-color: hsl(0, 24%, 96%);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar {
+  height: 33px;
+  width: 517px;
+  margin-top: 40px;
+  display: flex;
+  margin-left: auto;
+  gap: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.navbar a {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  text-decoration: none;
 }
 
-.card {
-  padding: 2em;
+.navbar a:hover {
+  color: hsl(26, 86%, 40%);
+  text-decoration: underline;
 }
 
-.read-the-docs {
-  color: #888;
+.heading {
+  width: 500px;
+  height: 150px;
+  font-size: 30px;
+  line-height: 50px;
+  padding-top: 40px;
+  margin: 90px 90px 3px;
+
+  /* border: 1px solid black; */
+}
+.paragraph {
+  width: 500px;
+  height: 110px;
+  line-height: 25px;
+  padding-top: 20px;
+  margin: 1px 90px;
+  /* border: 1px solid black; */
+  color: hsl(0, 1%, 38%);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
 }
