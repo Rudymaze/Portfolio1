@@ -1,5 +1,6 @@
 import PrimaryButton from "./PrimaryButton.jsx";
 import SecondaryButton from "./SecondaryButton.jsx";
+import Picture from "./Picture.jsx";
 import "./App.css";
 
 function App() {
@@ -13,15 +14,22 @@ function App() {
             <a href="">Projects</a>
             <a href="">Contacts</a>
           </div>
-          <div className="heading">
-            <h2>
-              Hi &#128400;,
-              <br />
-              I'm RUDIGER,
-              <br />
-              Front-end Developer
-            </h2>
+          <div className="grid-container">
+            <div className="heading">
+              <h2>
+                Hi &#128400;,
+                <br />
+                I'm RUDIGER,
+                <br />
+                Front-end Developer
+              </h2>
+            </div>
+
+            <div className="image">
+              <Picture />
+            </div>
           </div>
+
           <div className="paragraph">
             <p>
               I design and develop experiences that make people's lives <br />
@@ -30,10 +38,8 @@ function App() {
               HTML5, CSS3, JavaScript, React, ReactNative and Flutter.
             </p>
           </div>
-          <div className="image">
-            <img src="" alt="Profilke picture" />
-          </div>
-          <div className="btn">
+
+          <div className="grid-container2">
             <div className="btn-primary">
               {" "}
               <PrimaryButton />
